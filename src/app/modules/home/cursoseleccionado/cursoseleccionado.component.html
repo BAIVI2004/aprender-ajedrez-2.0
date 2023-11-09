@@ -1,0 +1,18 @@
+<div *ngIf="productos$ | async as cursos">
+  <div class="card-container">
+    <div class="card" *ngFor="let curso of cursos">
+      <div class="card-header">
+        <h5 class="card-title">{{ curso.nombre }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">ID: {{ curso.id }}</h6>
+      </div>
+      <div class="card-body">
+        <img class="card-img-top" src="{{ curso.image }}" alt="Imagen del producto">
+        <img class="card-img-top" src="{{ curso.image2 }}" alt="Imagen del producto">
+        <img class="card-img-top" src="{{ curso.image3 }}" alt="Imagen del producto">
+        <p class="card-text">{{ curso.descripcion }}</p>
+        <p class="card-text">Precio: {{ curso.duracion }}</p>
+        <iframe width="560" height="315" [src]="videoHTML" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+  </div>
+</div>
+
+

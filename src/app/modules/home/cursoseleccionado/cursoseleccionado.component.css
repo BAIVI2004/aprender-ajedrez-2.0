@@ -1,0 +1,28 @@
+/* styles.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 20px); /* Dividir en 3 columnas y agregar margen entre ellas */
+    margin-bottom: 20px; /* Espacio entre las filas de tarjetas */
+    box-sizing: border-box; /* Incluir el margen en el tamaño de la tarjeta */
+    border: 1px solid #ddd; /* Borde opcional para las tarjetas (puedes personalizarlo) */
+    margin-left: 400px;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px; /* Altura deseada para el contenedor de la imagen */
+  }
+  
+  .card-img-top {
+    max-width: 100%; /* Ajustar el tamaño máximo de la imagen para que sea pequeña y proporcionada */
+    height: auto; /* Evitar que la imagen se estire */
+  }
+  

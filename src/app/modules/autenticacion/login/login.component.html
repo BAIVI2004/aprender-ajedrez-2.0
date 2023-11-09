@@ -1,0 +1,16 @@
+<form [formGroup]="formLogin" (ngSubmit)="onSubmit()">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Correo" aria-label="Username" formControlName="email"
+            aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <input type="password" class="form-control" placeholder="Contraseña" aria-label="Username" formControlName="password"
+            aria-describedby="basic-addon1">
+    </div>
+
+    <input type="submit" class="btn btn-success" value="Iniciar Sesion">
+
+    <button type="button" class="btn btn-warning" routerLink="/register">Registrarse</button>
+
+
+</form>

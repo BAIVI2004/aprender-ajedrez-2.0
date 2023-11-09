@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Establece el cuerpo de la página para ocupar toda la pantalla */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5; /* Color de fondo */
+  }
+  
+  /* Estilo del formulario */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px; /* Ancho del formulario */
+    margin-left: 450px;
+  }
+  
+  /* Estilo de etiquetas y entradas de formulario */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo del botón */
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color del botón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Color al pasar el cursor sobre el botón */
+  }
+  

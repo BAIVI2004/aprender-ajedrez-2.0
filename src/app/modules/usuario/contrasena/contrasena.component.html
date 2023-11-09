@@ -1,0 +1,13 @@
+<p>contrasena works!</p>
+<form [formGroup]="seguridadForm" (ngSubmit)="actualizarContrasena()">
+    <div>
+      <label for="password">Contraseña nueva:</label>
+      <input type="password" id="password" formControlName="password" />
+    </div>
+    <div>
+      <label for="confirmPassword">Confirmar Contraseña nueva:</label>
+      <input type="password" id="confirmPassword" formControlName="confirmPassword" />
+    </div>
+    <button type="submit" class="btn btn-success">Guardar</button>
+  </form>
+  
