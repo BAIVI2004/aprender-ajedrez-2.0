@@ -1,3 +1,4 @@
+//importaciones para los cursos
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -35,6 +36,7 @@ export class CursosEditComponent implements OnInit {
     });
   }
 
+  //es un formulario con las descripcion de los cursos
   ngOnInit(): void {
     this.cursos = history.state.productos; // Corregir el nombre de la propiedad
     if (this.cursos) {

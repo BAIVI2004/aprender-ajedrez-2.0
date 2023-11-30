@@ -1,6 +1,8 @@
 <p>cursos-edit works!</p>
 <h1>Editar Producto</h1>
 
+<!--clasificacion para los cursos-->
+
 <form [formGroup]="form" (ngSubmit)="updateProducto()">
   <div class="form-group">
     <label for="nombre">Nombre</label>
@@ -40,7 +42,7 @@
     <input type="text" class="form-control" id="video" formControlName="video">
   </div>
   <div class="form-group">
-    <label for="image">niveles</label>
+    <label for="image">Nivel</label>
     <input type="text" class="form-control" id="niveles" formControlName="niveles">
   </div>
   
