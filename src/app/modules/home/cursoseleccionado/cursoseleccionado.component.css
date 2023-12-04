@@ -25,4 +25,9 @@
     max-width: 100%; /* Ajustar el tamaño máximo de la imagen para que sea pequeña y proporcionada */
     height: auto; /* Evitar que la imagen se estire */
   }
-  
+
+  .card video,
+.card iframe {
+  max-width: 100%;
+  height: auto;
+}
