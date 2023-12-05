@@ -17,7 +17,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
     this.getDatosUser3
   }
-  user: User | null = null; // Initialize with null
+  user: User | null = null; 
   login: boolean = false;
   rol: 'usuario' | 'admin' = 'usuario';
 
