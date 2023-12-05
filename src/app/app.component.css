@@ -1,0 +1,7 @@
+body {
+    background-color: #7c3004; /* Color de fondo para toda la aplicación */
+  }
+  
+  .mi-elemento {
+    background-color: #7c3004; /* Color de fondo para el elemento con clase "mi-elemento" */
+  }

@@ -1,3 +1,4 @@
+//como estara formado los datos cuando se registre el usuario
 export interface User{
     uid: string;
     nombre: string;

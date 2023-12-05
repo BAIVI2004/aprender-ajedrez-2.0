@@ -9,3 +9,13 @@
   height: auto;
 }
 
+
+/* En tu archivo de estilos global (styles.css o styles.scss) o en el archivo de estilos de un componente específico */
+
+body {
+  background-color: #3498db; /* Color de fondo para toda la aplicación */
+}
+
+.mi-elemento {
+  background-color: #2ecc71; /* Color de fondo para el elemento con clase "mi-elemento" */
+}

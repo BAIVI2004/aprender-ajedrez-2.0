@@ -1,3 +1,4 @@
+//esta es la estructura de que contenidos tendra los cursos
 export interface Cursos{
     uid: any;
     id: string;

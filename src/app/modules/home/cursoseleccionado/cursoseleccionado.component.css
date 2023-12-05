@@ -26,6 +26,8 @@
     height: auto; /* Evitar que la imagen se estire */
   }
 
+  
+
   .card video,
 .card iframe {
   max-width: 100%;
