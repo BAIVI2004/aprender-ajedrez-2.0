@@ -38,14 +38,16 @@ export class CursosService {
   
   async actualizarcurso(cursos: Cursos) {
     const productosRef = collection(this.firestore, 'cursos');
-    let q = query(productosRef, where('id', '==', cursos.id));
+    const q = query(productosRef, where('id', '==', cursos.id));
     const querySnapshot = await getDocs(q);
-
-    querySnapshot.forEach(async (document) => {
+  
+    if (querySnapshot.docs.length > 0) {
+      const document = querySnapshot.docs[0];
       const docRef = doc(this.firestore, 'cursos', document.id);
       await updateDoc(docRef, { ...cursos });
-    });
+    }
   }
+  
 
   async deletePlayer(id: string) {
     const productosRef = collection(this.firestore, 'cursos');

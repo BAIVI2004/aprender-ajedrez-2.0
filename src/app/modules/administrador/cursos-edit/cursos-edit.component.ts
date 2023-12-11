@@ -43,7 +43,7 @@ export class CursosEditComponent implements OnInit {
   // Método de inicialización que se ejecuta al cargar el componente
   ngOnInit(): void {
     // Obtiene los datos del curso actual desde el estado de la ruta
-    this.cursos = history.state.productos; // Corregir el nombre de la propiedad
+    this.cursos = history.state.productos;  // Corregir el nombre de la propiedad
     // Si existen datos del curso, actualiza el formulario con esa información
     if (this.cursos) {
       this.form.patchValue({
